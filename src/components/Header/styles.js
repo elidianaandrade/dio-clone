@@ -13,6 +13,7 @@ export const Row = styled.div`
     display:flex;
     flex-direction: row;
     align-items: center;
+    margin: 1rem 2rem;
 `;
 
 export const Wrapper = styled.div`
@@ -62,6 +63,7 @@ export const UserPicture = styled.img`
     height: 32px;
     border-radius: 2rem;
     border: 3px solid #FFFFFF;
+    margin: 1rem 1.5rem;
 `
 
 export const Input = styled.input`

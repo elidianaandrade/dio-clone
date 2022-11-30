@@ -3,19 +3,20 @@ import styled, {css}  from 'styled-components'
 export const ButtonContainer = styled.button`
     position: relative;
     color: #FFFFFF;
-    text-transform: uppercase;
+    font-size: 1.15rem;
+    font-weight: 400;
     background: #565656;
     border-radius: 2rem;
     padding: 0.25rem 1.5rem;
     margin: 0 0.5rem;
-    min-width: 120px;
+    min-width: 100px;
     width: 100%;
     transition: background-color 0.2s ease-out 0s;
     &:hover {
         background: #E4105D;
     }
 
-    ${({type}) => type !== "primary" && css`
+    ${({buttonType}) => buttonType !== "primary" && css`
         min-width: 167px;
         height: 33px;
         

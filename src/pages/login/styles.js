@@ -3,9 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.main`
     width: 100%;
     max-width: 80%;
-    margin: 0 auto;
-    margin-top: 120px;
-
+    margin: 120px auto 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -17,7 +15,7 @@ export const Wrapper = styled.div`
 `
 
 export const Column = styled.div`
-    flex: 1;
+    min-width: 640px;
 `
 
 export const Row = styled.div`
@@ -36,6 +34,7 @@ export const Title = styled.h2`
     max-width: 90%;
     margin-bottom: 20px;
     line-height: 44px;
+
     color: #FFFFFF;
 `
 

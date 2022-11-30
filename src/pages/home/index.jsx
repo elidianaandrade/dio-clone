@@ -4,6 +4,7 @@ import { Button } from '../../components/Button';
 import { Header } from '../../components/Header';
 import { Container, Title, TitleHighlight, TextContent } from './styles';
 
+
 const Home = () => {
     return (<>
         <Header />
@@ -19,7 +20,7 @@ const Home = () => {
                     Domine as tecnologias utilizadas pelas empresas mais inovadoras do mundo e encare seu novo
                     desafio profissional, evoluindo em comunidade com os melhores experts.
                 </TextContent>
-                <Button title="Começar agora" type="secondary"/>
+                <Button title="Começar agora" buttonType="secondary"/>
             </div>
             <div>
                 <img src={ bannerImg } alt="Imagem principal do site." />
