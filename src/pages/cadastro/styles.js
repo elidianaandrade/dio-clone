@@ -3,15 +3,15 @@ import styled from 'styled-components';
 export const Container = styled.main`
     width: 100%;
     max-width: 80%;
-    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin: auto;
 `
 
 export const Wrapper = styled.div`
-    max-width: 300px;
+    max-width: 350px;
 `
 
 export const Column = styled.div`
@@ -21,8 +21,9 @@ export const Column = styled.div`
 
 export const Row = styled.div`
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    gap: .5rem;
     align-items: center;
     margin-top: 20px;
 `
@@ -39,38 +40,45 @@ export const Title = styled.h2`
     color: #FFFFFF;
 `
 
-export const TitleLogin = styled.p`
+export const TitleCadastro = styled.p`
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
-    line-height: 44px;
-    margin-bottom: 8px;
+    margin-bottom: 35px;
 `
 
-export const SubtitleLogin = styled.p`
+export const SubtitleCadastro = styled.p`
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 25px;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
 `
 
-export const EsqueciText  = styled.p`
+export const NoteText  = styled.p`
     font-family: 'Open Sans';
     font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 19px;
-    color: #E5E044;
+    font-weight: 400;
+    font-size: .775rem;
+    margin: 2rem 0 1.5rem;
+    color: #FFF;
 ` 
 
-export const CriarText =  styled.p`
+export const PText  = styled.p`
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 19px;
+    font-size: 1rem;
+    color: #FFF;
+    margin: 0;
+` 
+
+export const LoginText =  styled.p`
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
     color: #23DD7A;
+    margin: 0;
 `

@@ -6,7 +6,7 @@ export const Container = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
+    margin: 0;
 `
 
 export const Row = styled.div`
@@ -64,6 +64,7 @@ export const UserPicture = styled.img`
     border-radius: 2rem;
     border: 3px solid #FFFFFF;
     margin: 1rem 1.5rem;
+    justify-self: flex-end;
 `
 
 export const Input = styled.input`
